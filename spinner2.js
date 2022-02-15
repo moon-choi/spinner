@@ -1,4 +1,3 @@
-// process.stdout.write("hello from spinner1.js... \rheyyy\n");
 const spins = ['|', '/', '-', '\\', '|', `\r`] 
 
 let timer = 100
@@ -12,3 +11,6 @@ for (let i = 0; i < spins.length; i++) {
     timer += 200;
     character = spins[i+1]
 }
+
+
+//I did it without help!!!!
