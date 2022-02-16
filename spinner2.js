@@ -14,3 +14,16 @@ for (let i = 0; i < spins.length; i++) {
 
 
 //I did it without help!!!!
+
+/* another solution by Sasu
+const icon = "|/-\\|/-\\|"
+
+let delay = 100;
+
+for (const spin of icon) {
+  setTimeout(() => {
+    process.stdout.write(\r${spin}    );
+  }, delay += 200);
+};
+
+*/
